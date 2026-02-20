@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+     <button type="button" id="btnajout">ajouter inscription</button>
+     <button type="button" id="btnlist">liste des inscriptions</button>
+     <button type="button" id="dashboard">dashbord</button>
+    </nav>
+    
+    
+     <form id="form">
+        
+      <input type="text" name="username" id="user" placeholder="Votre nom" required></input>
+      <input type="number" name="userage" id="age" placeholder="age" required></input>
+      <input type="email" name="useremail" id="email" placeholder="Votre email" required></input>
+      <input type="password" name="userpassword" id="password" placeholder="Votre identifiant" required></input>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+     </form>
+    
+ 
+ <section id="listeSection">
+  <ul id="liste"></ul>
+ </section>
+
+
+  
+   <p id ="resultat"></p>
+   
+    
+    
+ <script src="script.js"></script> 
+</body>
+</html>
